@@ -1,0 +1,21 @@
+{
+  "name": "foh-kuhs-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for FOH-KUHS",
+  "main": "n/a",
+  "repository": "",
+  "scripts": {
+    "build": "gatsby build",
+    "build-prefix-links": "gatsby build --prefix-links",
+    "develop": "gatsby develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis Werbelow (travis.werbelow@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "gatsby": "^0.12.28",
+    "react": "^15.4.2",
+    "react-helmet": "^4.0.0"
+  }
+}
