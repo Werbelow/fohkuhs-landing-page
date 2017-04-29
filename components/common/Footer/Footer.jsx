@@ -2,6 +2,8 @@ import React from 'react'
 import classnames from 'classnames'
 import './Footer.css'
 
+import twitterIcon from '../../../img/twitter.svg'
+
 class Footer extends React.Component {
     render() {
         function Signup(props) {
@@ -40,9 +42,12 @@ class Footer extends React.Component {
                             {form}
                             <div className="bottom row bottom-xs center-xs">
                                 <div className="col-xs-12">
+                                    <a href="https://twitter.com/fohkuhsapp" target="_blank">
+                                        <img src={twitterIcon} alt="" className="twitter-icon"/>
+                                    </a>
                                     <p className="made-by">A little thing by <a href="https://twitter.com/TravisWerbelow">Travis Werbelow</a></p>
                                     <p className="small">Pomodoro Technique® and Pomodoro® are registered trademarks of Francesco Cirillo.</p>
-                                    <p className="small"><span className="logo"><span className="bold">foh</span>-k<span className="italic">uh </span>s</span> is not affiliated with, nor endorsed by Francesco Cirillo. </p>
+                                    <p className="small"><span className="logo"><span className="bold">/foh</span>-k<span className="italic">uh </span>s/</span> is not affiliated with, nor endorsed by Francesco Cirillo. </p>
                                 </div>
                             </div>
                         </div>

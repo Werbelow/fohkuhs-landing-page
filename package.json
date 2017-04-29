@@ -1,21 +1,26 @@
 {
-  "name": "foh-kuhs-landing-page",
+  "name": "fohkuhs-landing-page",
   "version": "1.0.0",
   "description": "Landing page for FOH-KUHS",
   "main": "n/a",
-  "repository": "",
+  "repository": "https://github.com/Werbelow/fohkuhs-landing-page",
   "scripts": {
     "build": "gatsby build",
     "build-prefix-links": "gatsby build --prefix-links",
     "develop": "gatsby develop",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "NODE_ENV=production gatsby build && gh-pages -d public"
   },
   "author": "Travis Werbelow (travis.werbelow@gmail.com)",
   "license": "MIT",
   "dependencies": {
     "classnames": "^2.2.5",
+    "dotenv": "^4.0.0",
     "gatsby": "^0.12.28",
     "react": "^15.4.2",
     "react-helmet": "^4.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
   }
 }

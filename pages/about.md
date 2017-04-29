@@ -10,7 +10,7 @@ tagline: About
 ---
 
 ## Why 
-I love my job, and coding in general, but sometimes I have a bit of trouble focusing on the task at hand. I came across the <a href="https://cirillocompany.de/pages/pomodoro-technique" target="_blank">Pomodoro Technique©</a> a while back and found it to be very effective in helping me stay on task and knock out work.
+I came across the <a href="https://cirillocompany.de/pages/pomodoro-technique" target="_blank">Pomodoro Technique©</a> a while back and found it to be very effective in helping me stay on task and knock out work.
 
 I also wanted to learn more about Electron and actually ship a side project. 
 

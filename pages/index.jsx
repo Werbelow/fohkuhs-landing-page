@@ -6,9 +6,9 @@ import PageLink from '../components/common/PageLink';
 import Hero from '../components/common/Hero/Hero';
 import Footer from '../components/common/Footer/Footer';
 
-import splitImg from '../img/split.png'
-import breakImg from '../img/break.png'
-import chartImg from '../img/chart.png'
+import splitImg from './split.png'
+import breakImg from './break.png'
+import chartImg from './chart.png'
 
 class IndexPage extends Component {
   render() {
@@ -36,7 +36,7 @@ class IndexPage extends Component {
             <div className="row productive section">
               <div className="col-xs-12 col-sm-6 col-lg-4 col-lg-offset-2 padding-xs">
                 <p>Increase Your Productivity</p>
-                <p className="smaller"><span className="logo"><span className="bold">foh</span>-k<span className="italic">uh </span>s</span> uses concepts of the <br />Pomodoro Technique <span className="productive-copy-symbol">&copy;</span></p>
+                <p className="smaller"><span className="logo"><span className="bold">/foh</span>-k<span className="italic">uh </span>s/</span> (focus) uses concepts from the <br />Pomodoro Technique <span className="productive-copy-symbol">&copy;</span></p>
                 <a href="#" target="_blank">Learn More</a>
               </div>
               <div className="col-xs-12 col-sm-6 col-lg-4 padding-xs">

@@ -15,7 +15,7 @@ class Nav extends React.Component {
                         <div className="nav-bar">
                             <div className="logo">
                                 <PageLink to={'/'}>
-                                   <span className="logo"><span className="bold">foh</span>-k<span className="italic">uh </span>s</span>
+                                   <span className="logo"><span className="bold">/foh</span>-k<span className="italic">uh </span>s/</span>
                                 </PageLink>
                             </div>
                             <div className="nav-links">
