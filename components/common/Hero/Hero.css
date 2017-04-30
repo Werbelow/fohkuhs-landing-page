@@ -6,7 +6,7 @@
 }
 
 .hero.small {
-    height: 400px;
+    height: 250px;
 }
 
 .hero h1, .hero h3 {
@@ -16,6 +16,10 @@
 
 .hero .row {
     height: 300px;
+}
+
+.hero.small .row {
+    height: 210px;
 }
 
 .hero-angle {
@@ -36,8 +40,24 @@
     background-color: #fff;
 }
 
+.hero-angle.small:before {
+    top: -70px;
+}
+
 @media only screen and (min-width: 75em) {
     .hero h1 {
         font-size: 46px;
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+    .hero.small {
+        height: 400px;
+    }
+    .hero.small .row {
+        height: 300px;
+    }
+    .hero.small .hero-angle:before {
+        top: -140px;
     }
 }

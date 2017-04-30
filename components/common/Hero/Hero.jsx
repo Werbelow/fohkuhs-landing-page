@@ -5,6 +5,7 @@ import './Hero.css'
 class Hero extends React.Component {
     render() {
         let heroClass = classnames('hero', this.props.isPage ? 'small' : '')
+        let heroAngleClass = classnames('hero-angle', this.props.isPage ? 'small' : '')
         return (
             <div>
                 <div className={heroClass}>
@@ -18,7 +19,7 @@ class Hero extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="hero-angle"></div>
+                <div className={heroAngleClass}></div>
             </div>
 
         )
