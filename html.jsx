@@ -28,15 +28,15 @@ const HTML = (props) => {
         <meta property="og:url" content="http://www.fohkuhs.com" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="/foh kuhs s/" />
-        <meta property="og:description" content="A Beautiful Focus Timer" />
-        <meta property="og:image" content={shareImage} />
+        <meta property="og:description" content="A Beautiful Focus Timer | Launching Soon" />
+        <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/fohkuhs/fohkuhs-share-image.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@fohkuhsapp" />
         <meta name="twitter:creator" content="@traviswerbelow" />
-        <meta name="twitter:title" content="/foh kuhs s/w" />
-        <meta name="twitter:description" content="A Beautiful Focus Timer" />
-        <meta name="twitter:image" content={shareImage} />
+        <meta name="twitter:title" content="/foh kuhs s/" />
+        <meta name="twitter:description" content="A Beautiful Focus Timer | Launching Soon" />
+        <meta name="twitter:image" content="https://s3-us-west-2.amazonaws.com/fohkuhs/fohkuhs-share-image.jpg" />
         {head.title.toComponent()}
         {head.meta.toComponent()}
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet" />
