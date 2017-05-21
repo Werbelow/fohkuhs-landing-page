@@ -30,7 +30,7 @@ module.exports = React.createClass({
           <Hero tagline={page.tagline} isPage />
           <div className="container page-content">
             <div className="row">
-              <div className="col-xs-8 col-xs-offset-2 page-content">
+              <div className="col-xs-10 col-xs-offset-1 page-content">
                 <div dangerouslySetInnerHTML={{ __html: page.body }} />
               </div>
             </div>

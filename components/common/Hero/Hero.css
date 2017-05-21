@@ -57,7 +57,7 @@
     .hero.small .row {
         height: 300px;
     }
-    .hero.small .hero-angle:before {
+    .hero-angle.small:before {
         top: -140px;
     }
 }

@@ -26,4 +26,4 @@ class Hero extends React.Component {
     }
 }
 
-export default Hero
+export default Hero 

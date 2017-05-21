@@ -6,7 +6,7 @@ import PageLink from '../components/common/PageLink';
 import Hero from '../components/common/Hero/Hero';
 import Footer from '../components/common/Footer/Footer';
 
-import splitImg from './split.png'
+import splitImg from './split2@2x.jpg'
 import breakImg from './break.png'
 import chartImg from './chart.png'
 
@@ -33,11 +33,20 @@ class IndexPage extends Component {
         </div>
         <div className="main">
           <div className="container container-fluid">
+            <div className="row middle-xs download section">
+              <div className="col-xs-12">
+                <p className="download-headline">Download for macOS</p>
+                <p className="version">v1.0.0-beta</p>
+                <a href="#">
+                  <button>Download</button>
+                </a>
+              </div>
+            </div>
             <div className="row productive section">
               <div className="col-xs-12 col-sm-6 col-lg-4 col-lg-offset-2 padding-xs">
                 <p>Increase Your Productivity</p>
                 <p className="smaller"><span className="logo"><span className="bold">/foh</span>-k<span className="italic">uh </span>s/</span> (focus) uses concepts from the <br />Pomodoro Technique <span className="productive-copy-symbol">&copy;</span></p>
-                <a href="#" target="_blank">Learn More</a>
+                <a href="https://cirillocompany.de/pages/pomodoro-technique" target="_blank">Learn More</a>
               </div>
               <div className="col-xs-12 col-sm-6 col-lg-4 padding-xs">
                 <p>Easy to use</p>
@@ -90,9 +99,19 @@ class IndexPage extends Component {
               </div>
             </div>
 
-            <div className="row middle-xs soon section">
+            {/*<div className="row middle-xs soon section">
               <div className="col-xs-12">
                 <p>Launching Soon...</p>
+              </div>
+            </div>*/}
+
+            <div className="row middle-xs download section">
+              <div className="col-xs-12">
+                <p className="download-headline">Download for macOS</p>
+                <p className="version">v1.0.0-beta</p>
+                <a href="#">
+                  <button>Download</button>
+                </a>
               </div>
             </div>
 

@@ -13,14 +13,14 @@ class Footer extends React.Component {
                 <div className="row center-xs middle-xs">
                     <div className="col-xs-6">
                         <div className="signup">
-                            <p>Signup for Launch Updates</p>
+                            <p>Signup for Updates</p>
                             <form action="https://fohkuhs.us15.list-manage.com/subscribe/post" method="POST">
                                 <input type="hidden" name="u" value="a83ba2f8e9a3d9de9e52124b8" />
                                 <input type="hidden" name="id" value="25d60b94b2" />
                                 <input type="email" autoCapitalize="off" autoCorrect="off" name="MERGE0" id="MERGE0" size="25" placeholder="you@awesome.com" />
                             
                                 <div className="submit-container clear">
-                                    <input type="submit" className="button" name="submit" value="Subscribe to list" />
+                                    <input type="submit" className="button" name="submit" value="Keep Me Updated 👍 " />
                                 </div>
                             </form>
                         </div>
