@@ -1,14 +1,45 @@
-import React, { Component } from 'react';
-import Helmet from 'react-helmet';
+import React, { Component } from "react";
+import Helmet from "react-helmet";
 
-import { config } from 'config';
-import PageLink from '../components/common/PageLink';
-import Hero from '../components/common/Hero/Hero';
-import Footer from '../components/common/Footer/Footer';
+import { config } from "config";
+import PageLink from "../components/common/PageLink";
+import Hero from "../components/common/Hero/Hero";
+import Footer from "../components/common/Footer/Footer";
 
-import splitImg from './split2@2x.jpg'
-import breakImg from './break.png'
-import chartImg from './chart.png'
+import splitImg from "./split2@2x.jpg";
+import breakImg from "./break.png";
+import chartImg from "./chart.png";
+
+
+/*function Download(props) {
+  if (OSName !== "MacOS") {
+    return (
+      <div className="row middle-xs download section">
+        <div className="col-xs-12">
+          <p className="download-headline">Download for macOS</p>
+          <p className="version">v1.0.0-beta</p>
+          <a href="#">
+            <button>Download</button>
+          </a>
+        </div>
+      </div>
+    );
+  } else {
+    return (
+      <div className="row middle-xs download section">
+        <div className="col-xs-12">
+          <p className="download-headline">
+            Available only for macOS right now
+          </p>
+          <p className="version">v1.0.0-beta</p>
+          <a href="#">
+            <button>Download</button>
+          </a>
+        </div>
+      </div>
+    );
+  }
+}*/
 
 class IndexPage extends Component {
   render() {
@@ -17,8 +48,8 @@ class IndexPage extends Component {
         <Helmet
           title={`${config.siteTitle}`}
           meta={[
-            { "name": "description", "content": "Sample" },
-            { "name": "keywords", "content": "sample, something" },
+            { name: "description", content: "A Beautiful Focus Timer" },
+            { name: "keywords", content: "pomodoro technique, pomodoro mac app, focus app, fohkuhs app, get shit done app" }
           ]}
         />
         <Hero tagline="A Beautiful Focus Timer" />
@@ -35,18 +66,37 @@ class IndexPage extends Component {
           <div className="container container-fluid">
             <div className="row middle-xs download section">
               <div className="col-xs-12">
-                <p className="download-headline">Download for macOS</p>
-                <p className="version">v1.0.0-beta</p>
-                <a href="#">
-                  <button>Download</button>
+                {/*<p className="download-headline">Download for macOS</p>*/}
+                <a href="http://download.fohkuhs.com">
+                  <button>Download for macOS</button>
                 </a>
+                <p className="version">v1.0.2</p>                
               </div>
             </div>
             <div className="row productive section">
               <div className="col-xs-12 col-sm-6 col-lg-4 col-lg-offset-2 padding-xs">
                 <p>Increase Your Productivity</p>
-                <p className="smaller"><span className="logo"><span className="bold">/foh</span>-k<span className="italic">uh </span>s/</span> (focus) uses concepts from the <br />Pomodoro Technique <span className="productive-copy-symbol">&copy;</span></p>
-                <a href="https://cirillocompany.de/pages/pomodoro-technique" target="_blank">Learn More</a>
+                <p className="smaller">
+                  <span className="logo">
+                    <span className="bold">/foh</span>
+                    -k
+                    <span className="italic">uh </span>
+                    s/
+                  </span>
+                  {" "}
+                  (focus) uses concepts from the
+                  {" "}
+                  <br />
+                  Pomodoro Technique
+                  {" "}
+                  <span className="productive-copy-symbol">©</span>
+                </p>
+                <a
+                  href="https://cirillocompany.de/pages/pomodoro-technique"
+                  target="_blank"
+                >
+                  Learn More
+                </a>
               </div>
               <div className="col-xs-12 col-sm-6 col-lg-4 padding-xs">
                 <p>Easy to use</p>
@@ -55,7 +105,6 @@ class IndexPage extends Component {
                 <p className="smaller">Repeat</p>
               </div>
             </div>
-
 
             <div className="row middle-xs break-screen section">
               <div className="col-xs-12 col-sm-4 padding-xs">
@@ -66,8 +115,6 @@ class IndexPage extends Component {
                 <img src={breakImg} alt="" />
               </div>
             </div>
-
-
 
             <div className="row middle-xs chart-screen section">
               <div className="col-xs-12 col-sm-7">
@@ -88,7 +135,9 @@ class IndexPage extends Component {
                 <p className="smaller">Set session length</p>
                 <p className="smaller">Set break length</p>
                 <p className="smaller">Set sessions until longer break</p>
-                <p className="smaller">Set goal sessions (10 is a good starting goal)</p>
+                <p className="smaller">
+                  Set goal sessions (10 is a good starting goal)
+                </p>
               </div>
               <div className="col-xs-12 col-sm-5">
                 <p className="smaller">Break screen on/off</p>
@@ -107,11 +156,11 @@ class IndexPage extends Component {
 
             <div className="row middle-xs download section">
               <div className="col-xs-12">
-                <p className="download-headline">Download for macOS</p>
-                <p className="version">v1.0.0-beta</p>
-                <a href="#">
-                  <button>Download</button>
+                {/*<p className="download-headline">Download for macOS</p>*/}
+                <a href="http://download.fohkuhs.com">
+                  <button>Download for macOS</button>
                 </a>
+                <p className="version">v1.0.2</p>                
               </div>
             </div>
 
@@ -120,8 +169,8 @@ class IndexPage extends Component {
 
         <Footer />
 
-      </div> //END OF WRAPPER DIV
-    )
+      </div>
+    ); //END OF WRAPPER DIV
   }
 }
 
