@@ -70,7 +70,7 @@ class IndexPage extends Component {
                 <a href="http://download.fohkuhs.com">
                   <button>Download for macOS</button>
                 </a>
-                <p className="version">v1.0.2</p>                
+                <p className="version">v1.0.3</p>                
               </div>
             </div>
             <div className="row productive section">
@@ -160,7 +160,7 @@ class IndexPage extends Component {
                 <a href="http://download.fohkuhs.com">
                   <button>Download for macOS</button>
                 </a>
-                <p className="version">v1.0.2</p>                
+                <p className="version">v1.0.3</p>                
               </div>
             </div>
 

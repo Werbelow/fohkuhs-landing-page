@@ -4,6 +4,17 @@ description: Gatsby Starter Kit
 keywords: gatsby, starter
 tagline: Changelog
 ---
+
+## v1.0.3 - Small Improvements 🙂
+* Small Bug Fixes
+* Option to hide dock icon
+* Add 10 more break images
+* Add break images credit
+
+*July 23rd 2017*
+
+<br />
+
 ## v1.0.2 - Bug Fixes 👍
 Minor bug fixes
 

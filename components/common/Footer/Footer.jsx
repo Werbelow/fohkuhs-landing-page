@@ -3,6 +3,7 @@ import classnames from 'classnames'
 import './Footer.css'
 
 import twitterIcon from '../../../img/twitter.svg'
+import purpleTwitter from '../../../img/twitter-purple.svg'
 
 class Footer extends React.Component {
     render() {
@@ -33,6 +34,7 @@ class Footer extends React.Component {
 
         let footerClass = classnames('footer', this.props.isPage ? 'page' : '')
         let footerWrapper = classnames('footer-wrapper', this.props.isPage ? 'page' : '')
+        let twitterBird = this.props.isPage ? purpleTwitter : twitterIcon
 
         return (
             <div>
@@ -43,7 +45,7 @@ class Footer extends React.Component {
                             <div className="bottom row bottom-xs center-xs">
                                 <div className="col-xs-12">
                                     <a href="https://twitter.com/fohkuhsapp" target="_blank">
-                                        <img src={twitterIcon} alt="" className="twitter-icon"/>
+                                        <img src={twitterBird} alt="" className="twitter-icon"/>
                                     </a>
                                     <p className="made-by">A little thing by <a href="https://twitter.com/TravisWerbelow">Travis Werbelow</a></p>
                                     <p className="small">Pomodoro Technique® and Pomodoro® are registered trademarks of Francesco Cirillo.</p>
